@@ -1,0 +1,27 @@
+{
+  "name": "vithsuchak",
+  "version": "1.0.0",
+  "description": "Vith Suchak : Personal finance Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arameshraju/vithsuchak.git"
+  },
+  "keywords": [
+    "personal",
+    "Finance",
+    "Manager"
+  ],
+  "author": "Ramesh.Raju.Alluri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arameshraju/vithsuchak/issues"
+  },
+  "homepage": "https://github.com/arameshraju/vithsuchak#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

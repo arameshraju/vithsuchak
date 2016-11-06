@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html ng-app="vsApp">
+<head>
+<meta charset="UTF-8">
+<title>Vith Suchak</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js" ></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDnfKYpLl03w6uMHzhts9iEhNIV4yyTA3c",
+    authDomain: "vithsuchak.firebaseapp.com",
+    databaseURL: "https://vithsuchak.firebaseio.com",
+    storageBucket: "vithsuchak.appspot.com",
+    messagingSenderId: "793611804294"
+  };
+  firebase.initializeApp(config);
+</script>
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/2.1.0/angularfire.min.js"></script>
+    
+    <script src="lib/app.js"></script>
+</head>
+
+<body>
+    
+    Vith Suchak, a personal finance manager.
+    <ng-view></ng-view>
+
+
+</body>
+
+</html> 
